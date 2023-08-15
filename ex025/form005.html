@@ -7,6 +7,25 @@
     <title>Formulários</title>
 </head>
 <body>
-     
+     <h1>Exemplo de formulário</h1>
+
+     <form action="cadastro.php" method="get">
+
+        <fieldset>
+            <legend>Gênero</legend>
+            <input type="radio" name="sexo" id="iMas" checked> <label for="iMas">Masculino</label>
+            <input type="radio" name="sexo" id="iFem"><label for="IFem">Femenino</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Desportos favoritos</legend>
+            <input type="checkbox" name="fut" id="ifut"> <label for="ifut">Futebol</label>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+     </form>
 </body>
 </html>
