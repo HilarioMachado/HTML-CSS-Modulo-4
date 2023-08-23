@@ -19,7 +19,11 @@ menu{
     display: none;
 }
 
+article{
+    width: 100%;
+}
+
 article::after {
     font-weight: bold;
-    content: "Esse artigo foi impresso através do site www.Mechil.com"
+    content: "Esse artigo foi impresso através do site www.hilariomachado.com"
 }
