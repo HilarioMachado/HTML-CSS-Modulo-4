@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 768px){
+    header{
+        margin: auto;
+        width: 80%;
+        border-bottom: 3px solid #12163d;
+        flex-flow: row wrap;
+        padding-top: 10px;
+    }
+    .burguer{
+        display: none;
+    }
+    .logo{
+        margin: 0;
+        flex: 40%;
+    }
+    .menu{
+        flex: 60%;
+        background-color: transparent;
+        display: flex;
+    }
+    .menu > ul{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        width: 100%;
+        background-color: transparent;
+        border-radius: 1px;
+        padding-right: 20%;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    .menu > ul > li{
+        background-color: transparent;
+        box-shadow: none;
+        margin-bottom: 1px;
+    }
+    .menu > ul > li:hover{
+        font-size: 1.03em;
+        background-color:  #12163d;
+        border-radius: 4px;
+    }
+    .menu > ul > li > a{
+        color: blue;
+    }
+
+}

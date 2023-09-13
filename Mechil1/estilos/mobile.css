@@ -1,0 +1,66 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    color: #12163d;
+    text-align: center;
+    margin: 20px;
+}
+.logo > h1{
+    font-size: 3.5em;
+}
+.burguer{
+    background: url(../icons/icons8-menu-48.png) no-repeat;
+    background-position: center center;
+    background-color:  #12163d;
+    height: 40px;
+    cursor: pointer;
+}
+
+.burguer:hover{
+    background-color: #242c79;
+    height: 44px;
+    transition: 0.3s;
+}
+
+.menu{
+    display: none;
+    background-color:  rgba(27, 56, 56, 0.363);
+    text-align: center;
+}
+
+.menu > ul{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    list-style: none;
+}
+
+.menu > ul > li{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    margin-top: 2px;
+    box-shadow: inset 1px 1px 1px black;
+
+    cursor: pointer;
+}
+
+.menu > ul > li:hover{
+    background-color:  #126ca8;
+    transition: 0.5s;
+}
+
+.menu > ul > li > a{
+    text-decoration: none;
+    color: white;
+}
+

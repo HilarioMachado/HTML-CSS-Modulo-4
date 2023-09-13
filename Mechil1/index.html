@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-ao">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mechil</title>
+    <link rel="stylesheet" href="estilos/mobile.css">
+    <link rel="stylesheet" href="estilos/media.css">
+</head>
+<body onresize="mudoutamanho()">
+   <header>
+        <div class="logo">
+            <h1>Mechil</h1>
+            <p>Marketing & Produtos</p>
+        </div>
+        <span class="burguer" onclick="mostrarmenu()"></span>
+        <nav id="itens" class="menu">
+            <ul>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Marketing</a></li>
+                <li><a href="#">Informações</a></li>
+                <li><a href="#">Ajuda</a></li>
+            </ul>
+        </nav>
+   </header>
+   <script>
+        function mostrarmenu(){
+            if(itens.style.display == "none"){
+                itens.style.display = "flex";
+            }
+            else
+            itens.style.display = "none";
+        }
+        function mudoutamanho(){
+            if(window.innerWidth >= '768'){
+                itens.style.display = "flex";
+            }
+            else
+            itens.style.display = "none";
+        }
+   </script>
+</body>
+</html>
