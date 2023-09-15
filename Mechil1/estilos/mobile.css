@@ -6,7 +6,7 @@
 
 body
 {
-    background-color: rgba(223, 223, 223, 0.671);
+    background-color: rgb(223, 223, 223);
 }
 
 header{
@@ -98,8 +98,7 @@ main > p{
     margin-right: 20px;
     margin-left: 20px;
     margin-bottom: 50px;
-    background-color: #12163d;
-    height: 500px;
+    height: 350px;
     border-radius: 7px;
 }
 
@@ -107,7 +106,6 @@ main > p{
     background: url(../imagens/perfume.jpg) no-repeat;
     background-size: cover;
     background-position: center top;
-    background-attachment: fixed;
     border-radius: 6px;
     height: 100%;
 }
@@ -116,7 +114,6 @@ main > p{
     background: url(../imagens/bolsa.jpeg) no-repeat;
     background-size: cover;
     background-position: center top;
-    background-attachment: fixed;
     border-radius: 6px;
     height: 100%;
 }
@@ -125,7 +122,6 @@ main > p{
     background: url(../imagens/quadro.jpg) no-repeat;
     background-size: contain;
     background-position: center top;
-    background-attachment: fixed;
     border-radius: 6px;
     height: 100%;
 }
@@ -134,7 +130,6 @@ main > p{
     background: url(../imagens/tenis.jpeg) no-repeat;
     background-size: cover;
     background-position: center top;
-    background-attachment: fixed;
     border-radius: 6px;
     height: 100%;
 }
@@ -143,7 +138,6 @@ main > p{
     background: url(../imagens/chuteira.jpeg) no-repeat;
     background-size: cover;
     background-position: center top;
-    background-attachment: fixed;
     border-radius: 6px;
     height: 100%;
 }
