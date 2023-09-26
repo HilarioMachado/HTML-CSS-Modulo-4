@@ -14,6 +14,7 @@
 }
 
 .cabecalho{
+    width: 100vw;
     background-image: linear-gradient(to left ,var(--cor3),  black);
     color: var(--cor4);
     display: flex;
@@ -37,73 +38,9 @@
     padding: 20px 20px 0px 20px;
     font-size: 2.5em;
 }
-
 .principal{
-    width: 98vw;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: rgb(236, 244, 252);
-    border-radius: 3px
+    width: 100vw;
 }
-
 .principal > h1{
-    margin: auto;
-}
-
-.conteudo{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    justify-content: space-between;
-    flex: 1 1 100vw;
-}
-
-.imagem{
-    width: 250px;
-    height: 150px;
-    margin: 30px;
-}
-
-.imagem > div{
-    width: 100%;
-    height: 100%;
-}
-
-.imagem > div:hover{
-    transition: 0.5s;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-#imagem1{
-    background: url(imagens/programacao.jpg) no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
-#imagem2{
-    background: url(imagens/administrador.jpg) no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
-#imagem3{
-    background: url(imagens/sistemas.jpg) no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
-#imagem4{
-    background: url(imagens/rede.webp) no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
-
-
-.assunto{
-    flex: 1 1 100vw;
-    border: 1px solid red;
-}
-
-.rodape{
-    margin: auto;
-    width: 98vw;
+    text-align: center;
 }
