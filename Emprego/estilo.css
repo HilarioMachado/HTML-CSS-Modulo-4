@@ -41,6 +41,8 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+
+    background-image: linear-gradient(to bottom left, white, var(--cor4));
 }
 
 .artigo{
@@ -92,3 +94,18 @@
     font-size: 1.01em;
     transition: 0.3s;
 }
+
+@media screen and (min-width: 768px) and (orientation: landscape){
+    .conteudo{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .artigo{
+        max-width: 450px;
+    }
+}
+
