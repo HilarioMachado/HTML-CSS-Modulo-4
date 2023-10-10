@@ -5,16 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Candidatura para emprego</title>
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="estilos/mobile.css">
+    <link rel="stylesheet" href="estilos/medias.css">
 </head>
 
-<body>
+<body onresize="mudouTamanho()">
     <header class="cabecalho">
-        <h1 class="logo">Mechil</h1>
-        <p>Marketing & Tecnologias</p>
+        <div class="logo">
+            <h1 class="mechil">Mechil</h1>
+            <p>Marketing & Tecnologias</p>
+        </div>
+        <span onclick="menuOpen()" class="burguer">&#9776;</span>
+        <nav id="itens" class="menu">
+            <a href="#">Home</a>
+            <a href="#">Softwares</a>
+            <a href="#">Marketing</a>
+            <a href="#">Candidaturas</a>
+            <a href="#">Sobre</a>
+        </nav>
     </header>
     <main class="principal">
-        <h1>Área de Candidaturas</h1>
+        <h1 class="titulo_candidatura">Área de Candidatura</h1>
         <section class="conteudo">
             <article class="artigo">
                 <img class="imagem" src="imagens/programacao.jpg" alt="Imagem de Programação">
@@ -58,6 +69,7 @@
             </article>
         </section>
     </main>
+    <script src="JS/script.js"></script>
 </body>
 
 </html>

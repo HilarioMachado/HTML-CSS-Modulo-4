@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (orientation: landscape){
+    .cabecalho{
+        flex-direction: row;
+    }
+
+    .logo{
+        flex: 1 1 50%;
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        flex: 1 1 50%;
+        padding-right: 40px;
+    }
+
+    .menu > a{
+        border-radius: 4px;
+        padding: 10px;
+    }
+
+    .menu > a:hover{
+        background-color: rgba(8, 8, 43, 0.802);
+    }
+    
+    .burguer{
+        display: none;
+    }
+    .conteudo{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .principal > .titulo_candidatura{
+        font-size: 2em;
+    }
+
+    .artigo{
+        max-width: 450px;
+    }
+}
